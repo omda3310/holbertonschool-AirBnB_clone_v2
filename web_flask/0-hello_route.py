@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""Import a Flask web application
-Routers:
-      /: Displays 'Hello HBNB!'
-"""
+"""Import a Flask web application"""
 from flask import Flask
 
 app = Flask(__name__)
@@ -15,5 +12,5 @@ def Hello_hbnb():
     return "Hello HBNB!"
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=None)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port='5000', debug=None)
