@@ -35,7 +35,7 @@ def hbnb_python(text="is cool"):
 @app.route('/number/<int:n>', strict_slashes=False)
 def hbnb_number(n):
     """show number"""
-    return ("{:d} is a nember".format(n))
+    return ("{:d} is a number".format(n))
 
 
 if __name__ == '__main__':
